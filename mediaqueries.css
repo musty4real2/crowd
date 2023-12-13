@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 70vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    header {
+        background-image: url(images/image-hero-mobile.jpg);
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
