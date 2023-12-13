@@ -1,19 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
-    --moderate--cyan:hsl(176, 50%, 47%);
-    --dark--cyan:hsl(176, 72%, 28%);
-    --dark--black:lack: hsl(0, 0%, 0%);
-    --dark--grey:hsl(0, 0%, 48%);
+    --moderate--cyan: hsl(176, 50%, 47%);
+    --dark--cyan: hsl(176, 72%, 28%);
+    --dark--black: lack: hsl(0, 0%, 0%);
+    --dark--grey: hsl(0, 0%, 48%);
     --light--white: hsl(0, 0%, 100%);
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 16px;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -52,7 +57,7 @@ nav {
 a {
     color: var(--light--white);
     text-decoration: none;
-    text-decoration-color:var(--dark--black);
+    text-decoration-color: var(--dark--black);
 }
 
 a:hover {
@@ -102,8 +107,8 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color:transparent(var(--dark--black));
-    width:max-content;
+    background-color: transparent(var(--dark--black));
+    width: max-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
@@ -150,3 +155,129 @@ a:hover {
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+/* sections */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+#mastercraft {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--light--white);
+}
+
+.card {
+    margin-top: -680px;
+    width: 700px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Style for the card header */
+.card-hea {
+    position: relative;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.legend {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Style for the logo */
+.card-logo {
+    max-width: 100px;
+    /* Adjust the size as needed */
+}
+
+/* Style for the card body */
+.card-body {
+    padding: 20px;
+    background-color: var(--light--white);
+}
+
+.card-body h2 {
+    margin-top: 40px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 1em;
+    color: var(--dark--grey);
+    line-height: 1.6;
+    align-self: center;
+    text-align: center;
+}
+
+/* card btn */
+
+.round-btn {
+    border-radius: 20px;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.left-btn {
+    background-color:var(--moderate--cyan);
+    margin-right: 260px;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+
+.right-btn {
+    background-color: transparent(grey);
+    color: var(--dark--black);
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 12rem;
+    border-radius: 2rem;
+}
+
+.right-btn::before {
+    content: url('images/icon-bookmark.svg');
+    height: 12px; width: 40px;
+    position: relative;
+    top: 10%;
+    right: 13px;
+}
+
+/* Additional style for the buttons container */
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* card btn end */
