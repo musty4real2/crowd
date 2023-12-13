@@ -421,3 +421,27 @@ section {
     margin-right: 50px;
 }
 
+.card3h3-l {
+    margin-top: auto;
+    padding-top: 38px;
+    padding-left: 38px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: left;
+    float: left;
+}
+
+.card3h3-r {
+    margin-top: auto;
+    padding-top: 38px;
+    padding-left: 38px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-self: center;
+    text-align: right;
+    float: right;
+    margin-right: 40px;
+}
