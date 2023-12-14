@@ -293,7 +293,7 @@ section {
 }
 
 .card2 {
-    margin-top: -219px;
+    margin-top: -216px;
     position: absolute;
     background-color: var(--light--white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -378,7 +378,7 @@ section {
 
 /* card3 */
 .card3 {
-    margin-top: 405px;
+    margin-top: 769px;
     position: absolute;
     background-color: var(--light--white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
