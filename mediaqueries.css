@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
     header {
-        background-image: url(images/image-hero-mobile.jpg);
+        background-image: url(./images/image-hero-mobile.jpg);
         background-size: 100%;
         width: 100%;
         background-position: center top;
@@ -22,7 +22,7 @@
 
     #hamburger-nav {
         display: flex;
-        margin-top: -2rem;
+        margin-top: -1rem;
     }
 
     .mastercraft {

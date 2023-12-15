@@ -74,16 +74,19 @@ a:hover {
 
 #hamburger-nav {
     display: none;
+    z-index: 3;
 }
 
 .hamburger-menu {
     position: relative;
     display: inline-block;
     margin-right: 2.5rem;
+    z-index: 3;
 }
 
 .mobile-logo {
     margin-left: 1.5rem;
+    z-index: 3;
 }
 
 .hamburger-icon {
@@ -94,6 +97,7 @@ a:hover {
     width: 30px;
     cursor: pointer;
     margin-left: 0 auto;
+    z-index: 3;
 }
 
 .hamburger-icon span {
@@ -101,6 +105,7 @@ a:hover {
     height: 2px;
     background-color: white;
     transition: all 0.3 ease-in-out;
+    z-index: 3;
 }
 
 .menu-links {
@@ -114,6 +119,7 @@ a:hover {
     overflow: hidden;
     opacity: 1;
     transition: all 0.3 ease-in-out;
+    z-index: 3;
 }
 
 .menu-links a {
@@ -129,12 +135,14 @@ a:hover {
     align-items: center;
     flex-direction: column;
     align-items: start;
+    z-index: 3;
 }
 
 .menu-links li {
     list-style: none;
     color: var(--Black);
     padding-top: 1rem;
+    z-index: 3;
 }
 
 .menu-links.open {
@@ -148,6 +156,7 @@ a:hover {
     border-radius: 5px;
     margin-top: 2rem;
     text-align: center;
+    z-index: 3;
 }
 
 .menu-links .border {
