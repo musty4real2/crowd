@@ -8,33 +8,153 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     header {
         background-image: url(images/image-hero-mobile.jpg);
-        height: 70vh;
+        background-size: 100%;
         width: 100%;
-        background-position: center;
-        background-size: cover;
+        background-position: center top;
+        position: relative;
         background-repeat: no-repeat;
+        overflow-x: hidden;
+        height: 40vh;
     }
-}
 
-@media screen and (max-width: 375px) {
-    header {
-        background-image: url(images/image-hero-mobile.jpg);
-        height: 70vh;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    #hamburger-nav {
+        display: flex;
+        margin-top: -2rem;
     }
-}
 
-@media screen and (max-width: 375px) {
-    header {
-        background-image: url(images/image-hero-mobile.jpg);
-        height: 70vh;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .mastercraft {
+        margin-top: -4rem;
+        width: 100%;
+    }
+
+    .this-project {
+        padding: 1.5rem 5rem;
+    }
+
+    .this-project:hover {
+        background: var(--Dark--cyan);
+    }
+
+    .bookmark-text {
+        display: none;
+    }
+
+    .bookmark-btn {
+        width: 20%;
+        height: 56px;
+        background-color: white;
+    }
+
+    .bookmark-btn img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .numbers-section {
+        margin-top: 19rem;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .column1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+
+    .row1,
+    .row2 {
+        border-right: none;
+        border-bottom: 2px solid hsla(0, 0%, 48%, 0.25);
+    }
+
+    .backed {
+        align-self: center;
+    }
+
+    .row-text {
+        align-self: center;
+        margin-bottom: 1rem;
+        font-size: 14px;
+    }
+
+    .column2 {
+        padding-top: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .main-content {
+        margin-top: 2rem;
+        width: 90%;
+    }
+
+    .content-one {
+        padding-left: 1rem;
+    }
+
+    .content-one h1 {
+        margin-top: 2rem;
+    }
+
+    .content-one p br {
+        display: none;
+    }
+
+    .content-one p {
+        margin-top: 2rem;
+        align-self: center;
+    }
+
+    .content-two-column1,
+    .content-four-column1 {
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 0;
+        align-items: flex-start;
+    }
+
+    .content-two-column1 h1,
+    .content-four-column1 h1 {
+        font-size: 1rem;
+    }
+
+    .content-two-column2 br,
+    .content-four-column2 br {
+        display: none;
+    }
+
+    .content-two-column2,
+    .content-four-column2 {
+        padding-left: 1rem;
+        padding-right: 4rem;
+    }
+
+    .content-three-column3,
+    .content-four-column3 {
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+
+    .this-project1:hover {
+        background: var(--Dark--cyan);
+    }
+
+    .this-project1 {
+        padding: 1.2rem 3rem;
+        margin-top: 2rem;
     }
 }
